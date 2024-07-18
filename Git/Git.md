@@ -18,6 +18,7 @@ git commit -m "description"
 git rm -cached 撤销暂存区的修改
 git status (- s) 查看工作区 暂存区 本地仓库的状态
 
+***tips***:每次commit其实都是生成一个==***快照***==，每个快照对应一个版本号==***哈希值***==，Head->branch->快照
 ### 分支操作
 
 git branch -v 查看分支的情况
@@ -36,9 +37,8 @@ git log 查看commit的详细日志
 
 ### 远程仓库
 
+
 git remote add <name> <url>
 git remote rename <old-name> <new-name>
 git remote -v
-
-
 
